@@ -1,16 +1,110 @@
-# React + Vite
+# 💰 Finance Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and interactive **Finance Dashboard** built using React. This project allows users to track financial activity, view insights, and explore transactions with a simple and intuitive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+Live: https://anilzorvyn.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Dashboard Overview
+
+* Displays **Total Balance, Income, and Expenses**
+* Visualizes data using:
+
+  * 📈 Balance Trend (Line Chart)
+  * 🥧 Spending Breakdown (Pie Chart)
+
+### 📋 Transactions
+
+* View all transactions with:
+
+  * Date
+  * Amount
+  * Category
+  * Type (Income / Expense)
+* Filter transactions by type
+* Admin can **add transactions**
+
+### 🔐 Role-Based UI
+
+* **Viewer** → Can only view data
+* **Admin** → Can add transactions
+* Role switch available via dropdown
+
+### 💡 Insights
+
+* Displays:
+
+  * Total Savings
+  * Expense Ratio
+  * Financial Health Indicator
+  * Total Transactions
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React (Vite)
+* **Styling:** Tailwind CSS
+* **Charts:** Recharts
+* **State Management:** Zustand
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── Dashboard/
+│   ├── Transactions/
+│   ├── Insights/
+│   └── RoleSwitcher.jsx
+│
+├── store/
+│   └── useStore.js
+│
+├── data/
+│   └── mockData.js
+│
+├── pages/
+│   └── Dashboard.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+# Navigate to project
+cd finance-dashboard
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+```
+http://localhost:5173/
+---
+
+
+---
+
+## 🙌 Author
+
+**Anil Kumar**
+
+---
+
