@@ -1,4 +1,4 @@
-# 💰 Finance Dashboard UI
+# 💰 Finance Dashboard 
 
 A clean and interactive **Finance Dashboard** built using React. This project allows users to track financial activity, view insights, and explore transactions with a simple and intuitive UI.
 
